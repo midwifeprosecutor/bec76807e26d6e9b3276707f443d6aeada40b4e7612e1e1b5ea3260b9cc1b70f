@@ -3,7 +3,8 @@ name: midwifeprosecutor
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 2/6 * * *'
+    - cron: '4 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: midwifeprosecutor
         env:
-          mpkm77: ${{ secrets.mpkm77 }}
+          dx572: ${{ secrets.dx572 }}
         run: |
-          echo $mpkm77 | jq -r .oiq78215 | /bin/bash
-          echo $in34321 | jq -r .rpt6 | /bin/bash
-          echo $iys006 | jq -r .erkal7767 | /bin/bash
-          echo $sjqg2510 | jq -r .t375 | /bin/bash
-          echo $i74 | jq -r .gfr1940 | /bin/bash
+          echo $dx572 | jq -r .nz872 | /bin/bash
+          echo $c55 | jq -r .kmm7 | /bin/bash
+          echo $pfnnp0 | jq -r .ox551 | /bin/bash
+          echo $cqu6198 | jq -r .oqxha2790 | /bin/bash
+          echo $mqrm80780 | jq -r .ok39602 | /bin/bash
+          echo $s0 | jq -r .bq7 | /bin/bash
+          echo $ncry3173 | jq -r .cq01671 | /bin/bash
+          echo $kwvi9 | jq -r .rj6 | /bin/bash
+          echo $kt0647 | jq -r .hymqu9101 | /bin/bash
 
